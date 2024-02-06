@@ -3,13 +3,14 @@
   "version": "0.0.0",
   "description": "Introducing Ivy, an unstyled, component-focused library for React developers who value flexibility and control. Focus on building your app's logic and let CSS library handle the foundational UI elements. ",
   "scripts": {
-    "dev":"pnpm -r --filter=./packages/** --filter=./apps/** dev",
-    "build":"pnpm -r --filter=./packages/** --filter=./apps/** build",
-    "clean":"pnpm -r --filter=./packages/** --filter=./apps/** clean && rm -rf node_modules && rm -rf dist"
+    "dev": "pnpm -r --filter=./packages/** --filter=./apps/** dev",
+    "build": "pnpm -r --filter=./packages/** --filter=./apps/** build",
+    "clean": "pnpm -r --filter=./packages/** --filter=./apps/** clean && rm -rf node_modules && rm -rf dist"
   },
   "keywords": [],
   "author": "elamandeep",
   "devDependencies": {
     "@changesets/cli": "^2.27.1"
-  }
+  },
+  "license": "MIT"
 }
