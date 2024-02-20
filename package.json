@@ -5,19 +5,12 @@
   "scripts": {
     "dev": "pnpm -r --filter=./packages/** --filter=./apps/** dev",
     "build": "pnpm -r --filter=./packages/** --filter=./apps/** build",
-    "clean": "pnpm -r --filter=./packages/** --filter=./apps/** clean && rm -rf node_modules && rm -rf dist",
-    "prepare": "husky"
+    "clean": "pnpm -r --filter=./packages/** --filter=./apps/** clean && rm -rf node_modules && rm -rf dist"
   },
   "keywords": [],
   "author": "elamandeep",
-  "husky": {
-    "hooks": {
-      "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
-    }
-  },
   "devDependencies": {
-    "@changesets/cli": "^2.27.1",
-    "husky": "^9.0.11"
+    "@changesets/cli": "^2.27.1"
   },
   "license": "MIT"
 }
