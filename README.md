@@ -14,17 +14,8 @@ Welcome to Ivy, a lightweight and unstyled component library designed for React 
 
 To get started with Ivy in your React project, follow these simple steps:
 
-1. Install Ivy as a dependency using npm:
-   ```bash
-   npm install @your-namespace/ivy
-   ```
 
-2. Import the desired components into your React files:
-   ```jsx
-   import { Button, Card, Input } from '@your-namespace/ivy';
-   ```
-
-3. Customize and style the components to match your application's design.
+Customize and style the components to match your application's design.
 
 ## Todos 📋
 
@@ -39,6 +30,6 @@ Help us make Ivy even better by contributing to the following tasks:
 
 ## License 📜
 
-Ivy is licensed under the [MIT License](LICENSE.md). Feel free to use, modify, and distribute Ivy in your projects.
+Ivy is licensed under the [MIT License](./LICENSE). Feel free to use, modify, and distribute Ivy in your projects.
 
 Happy coding! 🚀🌿
